@@ -33,13 +33,23 @@ body{
     font-size: 4.4em;
     font-weight: 400;
 }
+.container .day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .day #quote{
+    font-family: cursive;
+    font-size: 17px;
+}
 .container .day span{
     font-size: 1.25em;
     font-weight: 500;
 }
 .taskbar{
     min-height: 10vh;
-    max-width: 50vw;
+    max-width: 70vw;
     display: flex;
     align-items: end;
     justify-content: center;
@@ -57,5 +67,5 @@ body{
 .taskbar ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.6vw;
+    font-size: 1.3em;
 }
